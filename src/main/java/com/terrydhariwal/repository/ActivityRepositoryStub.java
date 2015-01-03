@@ -34,6 +34,11 @@ public class ActivityRepositoryStub implements ActivityRepository {
         // I'm just hard coding this for now
         // Also note that you shouldn't really return an id to the end-user,
         // but just to show that I'm returning this object, I will return it
+
+        if(activityId.equals("7777")) {
+            return null;
+        }
+
         Activity activity1 = new Activity();
         activity1.setId("1234");
         activity1.setDescription("Swimming");

@@ -13,6 +13,7 @@ import javax.ws.rs.Produces;
 import javax.ws.rs.Consumes;
 import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.MultivaluedMap;
+import javax.ws.rs.core.Response;
 import java.util.List;
 
 // http://localhost:8080/{app-context}/{servlet-url-mapping}/activities
@@ -47,9 +48,23 @@ public class ActivityResource {
     @GET
     @Produces({MediaType.APPLICATION_JSON, MediaType.APPLICATION_XML})
     @Path("{activityId}") // http://localhost:8080/rest-exercise/webapi/activities/1234
-    public Activity getActivity(@PathParam("activityId") String activityId){
+    public Response getActivity(@PathParam("activityId") String activityId){
+
         System.out.println("Getting activity ID: " + activityId);
-        return activityRepository.findActivity(activityId);
+
+        if(activityId == null || activityId.length() < 4) {
+            return Response.status(Response.Status.BAD_REQUEST).build();
+        }
+
+        Activity activity = activityRepository.findActivity(activityId);
+
+        if(activity == null) {
+            return Response.status(Response.Status.NOT_FOUND).build();
+        }
+
+        //return Response.status(Response.Status.OK).entity(activity).build(); //this also works
+        return Response.ok().entity(activity).build();
+
     }
 
     @GET
@@ -90,9 +105,9 @@ public class ActivityResource {
     @Produces({MediaType.APPLICATION_JSON, MediaType.APPLICATION_XML})
     public Activity createActivity(Activity activity){
 
-//        System.out.println(activity.getDescription());
-//        System.out.println(activity.getDuration());
-        activityRepository.create(activity);
+        System.out.println(activity.getDescription());
+        System.out.println(activity.getDuration());
+        activityRepository.create(activity); //we pretend that this works - in reality we should check the response form the db
         return activity;
     }
 
