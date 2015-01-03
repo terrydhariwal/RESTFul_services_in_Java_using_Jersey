@@ -4,6 +4,7 @@ import com.terrydhariwal.model.Activity;
 import com.terrydhariwal.model.User;
 import com.terrydhariwal.repository.ActivityRepository;
 import com.terrydhariwal.repository.ActivityRepositoryStub;
+import org.glassfish.jersey.message.internal.MediaTypes;
 
 import javax.ws.rs.*;
 import javax.ws.rs.core.MediaType;
@@ -51,20 +52,41 @@ public class ActivityResource {
         return activityRepository.findActivity(activityId).getUser(); //return nested object of the activity object
     }
 
+    //From html forms
     @POST
     @Path("activity") // http://localhost:8080/rest-exercise/webapi/activities/activity
     @Consumes(MediaType.APPLICATION_FORM_URLENCODED)
     @Produces({MediaType.APPLICATION_JSON, MediaType.APPLICATION_XML})
     public Activity createActivityParams(MultivaluedMap<String, String> formParams) {
-        System.out.println(formParams.getFirst("description"));
-        System.out.println(formParams.getFirst("duration"));
+
+//        System.out.println(formParams.getFirst("description"));
+//        System.out.println(formParams.getFirst("duration"));
 
         Activity activity = new Activity();
         activity.setDescription(formParams.getFirst("description"));
         activity.setDuration(Integer.parseInt(formParams.getFirst("duration")));
+        activityRepository.create(activity);
+        return activity;
+    }
+
+    // Binding to a JSON object saves you from having to parse types from strings (like from html forms)
+    // test by sending a JSON but using the XMLElement names as apposed to property names (i.e. "desc" instead of "description")
+    // I've used PostMan to test this:
+    // Headers:
+    //      Content-Type = application/json //this maps to consumes
+    //      Accept = application/json (or application/xml) //this maps to produces
+    // Body (raw):
+    //      { "desc" : "swimming", "duration" : 55 }
+    @POST
+    @Path("activity")
+    @Consumes({MediaType.APPLICATION_JSON})
+    @Produces({MediaType.APPLICATION_JSON, MediaType.APPLICATION_XML})
+    public Activity createActivity(Activity activity){
+
+//        System.out.println(activity.getDescription());
+//        System.out.println(activity.getDuration());
 
         activityRepository.create(activity);
-
         return activity;
     }
 
