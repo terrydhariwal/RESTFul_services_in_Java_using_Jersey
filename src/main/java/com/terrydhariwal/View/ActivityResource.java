@@ -107,7 +107,7 @@ public class ActivityResource {
     }
 
     @PUT
-    @Path("{activityID}")
+    @Path("{activityId}")
     @Consumes({MediaType.APPLICATION_JSON})
     @Produces({MediaType.APPLICATION_JSON, MediaType.APPLICATION_XML})
     public Response updateActivity(Activity activity) {
@@ -117,5 +117,19 @@ public class ActivityResource {
         activity = activityRepository.update(activity);
 
         return Response.ok().entity(activity).build();
+    }
+
+
+    @DELETE
+    @Path("{activityId}")
+    @Consumes({MediaType.APPLICATION_JSON})
+    @Produces({MediaType.APPLICATION_JSON, MediaType.APPLICATION_XML})
+    public Response delete(@PathParam("activityId") String activityId) {
+        System.out.println(activityId);
+
+        //mock delete
+        activityRepository.delete(activityId);
+
+        return Response.ok().build();
     }
 }

@@ -82,4 +82,17 @@ public class ActivityClient {
 
         return response.readEntity(Activity.class);
     }
+
+
+    public void delete(String activityId) {
+        WebTarget target = client.target("http://localhost:8080/rest-exercise/webapi/");
+
+        Response response = target.path("activities/" + activityId)
+                .request(MediaType.APPLICATION_JSON)
+                .delete();
+
+        if(response.getStatus() != Status.OK.getStatusCode()) { //See http://jersey.576304.n2.nabble.com/Reponse-Status-response-getStatusInfo-td7581629.html
+            throw new RuntimeException(response.getStatus() + " (" + response.getStatusInfo() + ")" + " there was an error on the server.");
+        }
+    }
 }
