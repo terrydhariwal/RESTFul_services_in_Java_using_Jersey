@@ -56,4 +56,16 @@ public class ActivityRepositoryStub implements ActivityRepository {
     public void create(Activity activity) {
         //should issue an insert statement to the db...
     }
+
+    @Override
+    public Activity update(Activity activity) {
+        // should issue an update statement to the db...
+        // we are going to search the database to see if we have that activity with that ID already
+        // select * from activity where id = ?
+        // if that result set size == 0
+        // insert activity into the table
+        // else we will update the activity table with the changes.
+
+        return activity;
+    }
 }

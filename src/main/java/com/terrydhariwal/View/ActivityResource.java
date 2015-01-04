@@ -5,12 +5,7 @@ import com.terrydhariwal.model.User;
 import com.terrydhariwal.repository.ActivityRepository;
 import com.terrydhariwal.repository.ActivityRepositoryStub;
 
-import javax.ws.rs.GET;
-import javax.ws.rs.POST;
-import javax.ws.rs.Path;
-import javax.ws.rs.PathParam;
-import javax.ws.rs.Produces;
-import javax.ws.rs.Consumes;
+import javax.ws.rs.*;
 import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.MultivaluedMap;
 import javax.ws.rs.core.Response;
@@ -111,4 +106,16 @@ public class ActivityResource {
         return activity;
     }
 
+    @PUT
+    @Path("{activityID}")
+    @Consumes({MediaType.APPLICATION_JSON})
+    @Produces({MediaType.APPLICATION_JSON, MediaType.APPLICATION_XML})
+    public Response updateActivity(Activity activity) {
+        System.out.println(activity.getId());
+
+        //mock database
+        activity = activityRepository.update(activity);
+
+        return Response.ok().entity(activity).build();
+    }
 }
