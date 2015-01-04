@@ -26,11 +26,13 @@ public class ActivitySearchResource {
     // @QueryParam( value = "description") List<String> description
     // This basically means, pull out the values of the query param called description
     // and add those values into a variable called descriptions which is a List of Strings
-    public Response searchForActivities(@QueryParam( value = "description") List<String> descriptions) {
+    public Response searchForActivities(@QueryParam( value = "description") List<String> descriptions,
+                                        @QueryParam( value = "durationFrom") int durationFrom,
+                                        @QueryParam( value = "durationTo") int durationTo) {
 
-        System.out.println("descriptions = " + descriptions);
+        System.out.println("descriptions = " + descriptions + " , durationFrom = " + durationFrom + " , durationTo = " + durationTo);
 
-        List<Activity> activities = activityRepository.findByDescription(descriptions);
+        List<Activity> activities = activityRepository.findByDescription(descriptions, durationFrom, durationTo);
 
         if(activities == null || activities.size() <= 0) {
             return Response.status(Status.NOT_FOUND).build();

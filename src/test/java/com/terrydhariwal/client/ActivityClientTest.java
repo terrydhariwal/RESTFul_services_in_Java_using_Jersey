@@ -99,7 +99,13 @@ public class ActivityClientTest {
         searchValues.add("swimming");
         searchValues.add("running");
 
-        List<Activity> activities = client.search(param, searchValues);
+        String secondParam = "durationFrom";
+        int durationFrom = 30;
+
+        String thirdParam = "durationTo";
+        int durationTo = 55;
+
+        List<Activity> activities = client.search(param, searchValues, secondParam, durationFrom, thirdParam, durationTo);
 
         System.out.println(activities);
 
