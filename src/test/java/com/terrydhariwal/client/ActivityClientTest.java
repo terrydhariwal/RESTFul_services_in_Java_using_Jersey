@@ -3,6 +3,7 @@ package com.terrydhariwal.client;
 import com.terrydhariwal.model.Activity;
 import org.junit.Test;
 
+import java.util.ArrayList;
 import java.util.List;
 
 import static org.junit.Assert.*;
@@ -85,5 +86,23 @@ public class ActivityClientTest {
 
         client.delete("1234"); //i.e. we know the ID - because this is a DELETE
 
+    }
+
+    @Test
+    public void testSearch() {
+        ActivitySearchClient client = new ActivitySearchClient();
+
+        // lets give it a few things to search off of even though
+        // we've hardcoded the response
+        String param = "description";
+        List<String> searchValues = new ArrayList<String>();
+        searchValues.add("swimming");
+        searchValues.add("running");
+
+        List<Activity> activities = client.search(param, searchValues);
+
+        System.out.println(activities);
+
+        assertNotNull(activities);
     }
 }
