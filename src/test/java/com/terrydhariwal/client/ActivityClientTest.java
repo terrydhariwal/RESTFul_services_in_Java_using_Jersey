@@ -1,6 +1,7 @@
 package com.terrydhariwal.client;
 
 import com.terrydhariwal.model.Activity;
+import com.terrydhariwal.model.ActivitySearch;
 import org.junit.Test;
 
 import java.util.ArrayList;
@@ -110,5 +111,27 @@ public class ActivityClientTest {
         System.out.println(activities);
 
         assertNotNull(activities);
+    }
+
+    @Test
+    public void testSearchObject() {
+
+        ActivitySearchClient client = new ActivitySearchClient();
+
+        List<String> searchValues = new ArrayList<String>();
+        searchValues.add("swimming");
+        searchValues.add("biking");
+
+        ActivitySearch search = new ActivitySearch();
+        search.setDescriptions(searchValues);
+        search.setDurationFrom(30);
+        search.setDurationTo(40);
+
+        List<Activity> activities = client.search(search);
+
+        System.out.println(activities);
+
+        assertNotNull(activities);
+
     }
 }

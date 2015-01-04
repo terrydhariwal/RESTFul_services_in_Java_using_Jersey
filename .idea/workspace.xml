@@ -32,14 +32,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="ActivityClientTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ActivityClientTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/terrydhariwal/client/ActivityClientTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="1.3247423" vertical-offset="834" max-vertical-offset="1785">
-              <caret line="107" column="120" selection-start-line="107" selection-start-column="120" selection-end-line="107" selection-end-column="120" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="1501" max-vertical-offset="2130">
+              <caret line="116" column="21" selection-start-line="116" selection-start-column="16" selection-end-line="116" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#3243#3251#0" expanded="true" />
+                <element signature="e#3290#3298#0" expanded="true" />
+                <element signature="e#3898#3906#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ActivityClient.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/terrydhariwal/client/ActivityClient.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="772" max-vertical-offset="1470">
+              <caret line="70" column="51" selection-start-line="66" selection-start-column="7" selection-end-line="70" selection-end-column="51" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#2027#2053#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -48,8 +62,8 @@
       <file leaf-file-name="ActivitySearchClient.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/terrydhariwal/client/ActivitySearchClient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="720">
-              <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="498" max-vertical-offset="1095">
+              <caret line="66" column="64" selection-start-line="66" selection-start-column="64" selection-end-line="66" selection-end-column="64" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -57,13 +71,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ActivityRepositoryStub.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ActivityRepositoryStub.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/terrydhariwal/repository/ActivityRepositoryStub.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="722" max-vertical-offset="1440">
-              <caret line="79" column="8" selection-start-line="79" selection-start-column="8" selection-end-line="79" selection-end-column="8" />
+            <state vertical-scroll-proportion="1.0670103" vertical-offset="774" max-vertical-offset="1725">
+              <caret line="97" column="65" selection-start-line="97" selection-start-column="65" selection-end-line="97" selection-end-column="65" />
               <folding>
                 <element signature="e#2472#2482#0" expanded="true" />
+                <element signature="e#3124#3134#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -72,10 +87,22 @@
       <file leaf-file-name="ActivitySearchResource.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/terrydhariwal/View/ActivitySearchResource.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="63" max-vertical-offset="765">
-              <caret line="34" column="77" selection-start-line="34" selection-start-column="77" selection-end-line="34" selection-end-column="77" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="406" max-vertical-offset="1035">
+              <caret line="50" column="39" selection-start-line="50" selection-start-column="39" selection-end-line="50" selection-end-column="39" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ActivitySearch.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/terrydhariwal/model/ActivitySearch.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="465">
+              <caret line="27" column="32" selection-start-line="27" selection-start-column="32" selection-end-line="27" selection-end-column="32" />
+              <folding>
+                <element signature="e#614#615#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -84,8 +111,8 @@
       <file leaf-file-name="ActivityRepository.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/terrydhariwal/repository/ActivityRepository.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="345">
-              <caret line="17" column="64" selection-start-line="17" selection-start-column="64" selection-end-line="17" selection-end-column="64" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="375">
+              <caret line="19" column="98" selection-start-line="19" selection-start-column="98" selection-end-line="19" selection-end-column="98" />
               <folding />
             </state>
           </provider>
@@ -105,10 +132,11 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/terrydhariwal/client/ActivityClient.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/terrydhariwal/View/ActivityResource.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/terrydhariwal/repository/ActivityRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/terrydhariwal/model/ActivitySearch.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/terrydhariwal/client/ActivityClientTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/terrydhariwal/client/ActivitySearchClient.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/terrydhariwal/View/ActivitySearchResource.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/terrydhariwal/repository/ActivityRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/terrydhariwal/repository/ActivityRepositoryStub.java" />
       </list>
     </option>
@@ -175,6 +203,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="RESTFul_services_in_Java_using_Jersey" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rest-exercise" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RESTFul_services_in_Java_using_Jersey" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="target" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -307,6 +349,10 @@
               <option name="myItemId" value="terrydhariwal" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="model" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -430,34 +476,6 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <configuration default="false" name="ActivityClientTest.testCreate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.terrydhariwal.client.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="rest-exercise" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.terrydhariwal.client" />
-      <option name="MAIN_CLASS_NAME" value="com.terrydhariwal.client.ActivityClientTest" />
-      <option name="METHOD_NAME" value="testCreate" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
     <configuration default="false" name="ActivityClientTest.testPut" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -527,6 +545,34 @@
       <option name="PACKAGE_NAME" value="com.terrydhariwal.client" />
       <option name="MAIN_CLASS_NAME" value="com.terrydhariwal.client.ActivityClientTest" />
       <option name="METHOD_NAME" value="testSearch" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="ActivityClientTest.testSearchObject" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.terrydhariwal.client.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="rest-exercise" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.terrydhariwal.client" />
+      <option name="MAIN_CLASS_NAME" value="com.terrydhariwal.client.ActivityClientTest" />
+      <option name="METHOD_NAME" value="testSearchObject" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -998,18 +1044,18 @@
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Tomcat Server.Tomcat Local 8.0" />
       <item index="1" class="java.lang.String" itemvalue="JUnit.All in rest-exercise" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.ActivityClientTest.testCreate" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.ActivityClientTest.testPut" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.ActivityClientTest.testDelete" />
-      <item index="5" class="java.lang.String" itemvalue="JUnit.ActivityClientTest.testSearch" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.ActivityClientTest.testPut" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.ActivityClientTest.testDelete" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.ActivityClientTest.testSearch" />
+      <item index="5" class="java.lang.String" itemvalue="JUnit.ActivityClientTest.testSearchObject" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.ActivityClientTest.testSearch" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.ActivityClientTest.testDelete" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.ActivityClientTest.testPut" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.All in rest-exercise" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.ActivityClientTest.testCreate" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.ActivityClientTest.testSearchObject" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.ActivityClientTest.testSearch" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.ActivityClientTest.testDelete" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.ActivityClientTest.testPut" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.All in rest-exercise" />
       </list>
     </recent_temporary>
   </component>
@@ -1028,12 +1074,12 @@
       <workItem from="1420369355128" duration="155000" />
       <workItem from="1420369551422" duration="10000" />
       <workItem from="1420369566565" duration="3298000" />
-      <workItem from="1420401127137" duration="3474000" />
+      <workItem from="1420401127137" duration="5063000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25395000" />
+    <option name="totallyTimeSpent" value="26984000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -1065,13 +1111,13 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3299285" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.37691522" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32925585" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32925585" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21778488" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15867944" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32890704" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -1156,7 +1202,8 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#3243#3251#0" expanded="true" />
+            <element signature="e#3290#3298#0" expanded="true" />
+            <element signature="e#3898#3906#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1178,6 +1225,7 @@
           <caret line="73" column="52" selection-start-line="73" selection-start-column="52" selection-end-line="73" selection-end-column="52" />
           <folding>
             <element signature="e#2472#2482#0" expanded="true" />
+            <element signature="e#3124#3134#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1210,7 +1258,8 @@
           <caret line="40" column="22" selection-start-line="40" selection-start-column="22" selection-end-line="40" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#3243#3251#0" expanded="true" />
+            <element signature="e#3290#3298#0" expanded="true" />
+            <element signature="e#3898#3906#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1232,6 +1281,7 @@
           <caret line="39" column="9" selection-start-line="39" selection-start-column="9" selection-end-line="39" selection-end-column="9" />
           <folding>
             <element signature="e#2472#2482#0" expanded="true" />
+            <element signature="e#3124#3134#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1256,7 +1306,8 @@
           <caret line="40" column="22" selection-start-line="40" selection-start-column="22" selection-end-line="40" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#3243#3251#0" expanded="true" />
+            <element signature="e#3290#3298#0" expanded="true" />
+            <element signature="e#3898#3906#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1278,6 +1329,7 @@
           <caret line="39" column="9" selection-start-line="39" selection-start-column="9" selection-end-line="39" selection-end-column="9" />
           <folding>
             <element signature="e#2472#2482#0" expanded="true" />
+            <element signature="e#3124#3134#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1302,7 +1354,8 @@
           <caret line="40" column="22" selection-start-line="40" selection-start-column="22" selection-end-line="40" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#3243#3251#0" expanded="true" />
+            <element signature="e#3290#3298#0" expanded="true" />
+            <element signature="e#3898#3906#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1324,6 +1377,7 @@
           <caret line="39" column="9" selection-start-line="39" selection-start-column="9" selection-end-line="39" selection-end-column="9" />
           <folding>
             <element signature="e#2472#2482#0" expanded="true" />
+            <element signature="e#3124#3134#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1386,6 +1440,7 @@
           <caret line="44" column="32" selection-start-line="44" selection-start-column="32" selection-end-line="44" selection-end-column="32" />
           <folding>
             <element signature="e#2472#2482#0" expanded="true" />
+            <element signature="e#3124#3134#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1468,17 +1523,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/terrydhariwal/client/ActivityClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7853736" vertical-offset="841" max-vertical-offset="1470">
-          <caret line="95" column="9" selection-start-line="95" selection-start-column="9" selection-end-line="95" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2027#2053#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/terrydhariwal/View/ActivityResource.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.845787" vertical-offset="1088" max-vertical-offset="1755">
@@ -1493,20 +1537,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/terrydhariwal/client/ActivitySearchClient.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/terrydhariwal/client/ActivityClient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="720">
-          <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="772" max-vertical-offset="1470">
+          <caret line="70" column="51" selection-start-line="66" selection-start-column="7" selection-end-line="70" selection-end-column="51" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#2027#2053#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/terrydhariwal/View/ActivitySearchResource.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/terrydhariwal/client/ActivitySearchClient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="63" max-vertical-offset="765">
-          <caret line="34" column="77" selection-start-line="34" selection-start-column="77" selection-end-line="34" selection-end-column="77" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="498" max-vertical-offset="1095">
+          <caret line="66" column="64" selection-start-line="66" selection-start-column="64" selection-end-line="66" selection-end-column="64" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1515,29 +1560,51 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/terrydhariwal/repository/ActivityRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="345">
-          <caret line="17" column="64" selection-start-line="17" selection-start-column="64" selection-end-line="17" selection-end-column="64" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="375">
+          <caret line="19" column="98" selection-start-line="19" selection-start-column="98" selection-end-line="19" selection-end-column="98" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/terrydhariwal/repository/ActivityRepositoryStub.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/terrydhariwal/View/ActivitySearchResource.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="722" max-vertical-offset="1440">
-          <caret line="79" column="8" selection-start-line="79" selection-start-column="8" selection-end-line="79" selection-end-column="8" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="406" max-vertical-offset="1035">
+          <caret line="50" column="39" selection-start-line="50" selection-start-column="39" selection-end-line="50" selection-end-column="39" />
           <folding>
-            <element signature="e#2472#2482#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/terrydhariwal/model/ActivitySearch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="465">
+          <caret line="27" column="32" selection-start-line="27" selection-start-column="32" selection-end-line="27" selection-end-column="32" />
+          <folding>
+            <element signature="e#614#615#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/terrydhariwal/client/ActivityClientTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.3247423" vertical-offset="834" max-vertical-offset="1785">
-          <caret line="107" column="120" selection-start-line="107" selection-start-column="120" selection-end-line="107" selection-end-column="120" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="1501" max-vertical-offset="2130">
+          <caret line="116" column="21" selection-start-line="116" selection-start-column="16" selection-end-line="116" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#3243#3251#0" expanded="true" />
+            <element signature="e#3290#3298#0" expanded="true" />
+            <element signature="e#3898#3906#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/terrydhariwal/repository/ActivityRepositoryStub.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.0670103" vertical-offset="774" max-vertical-offset="1725">
+          <caret line="97" column="65" selection-start-line="97" selection-start-column="65" selection-end-line="97" selection-end-column="65" />
+          <folding>
+            <element signature="e#2472#2482#0" expanded="true" />
+            <element signature="e#3124#3134#0" expanded="true" />
           </folding>
         </state>
       </provider>

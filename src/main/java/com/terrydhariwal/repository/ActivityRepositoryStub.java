@@ -91,4 +91,23 @@ public class ActivityRepositoryStub implements ActivityRepository {
 
         return activities;
     }
+
+    @Override
+    public List<Activity> findByConstraints(List<String> descriptions, int durationFrom, int durationTo) {
+
+        System.out.println(descriptions + ", " + durationFrom + ", " + durationTo);
+        // select * from activities where description in (?,?,?)
+        // and duration > ? and duration < ?
+
+        //we will stub out something hardcoded
+        List<Activity> activities = new ArrayList<Activity>();
+
+        Activity activity = new Activity();
+        activity.setId("1234");
+        activity.setDescription("swimming");
+        activity.setDuration(30);
+        activities.add(activity);
+
+        return activities;
+    }
 }
