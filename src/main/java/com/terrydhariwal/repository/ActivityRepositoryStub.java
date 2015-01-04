@@ -1,6 +1,7 @@
 package com.terrydhariwal.repository;
 
 import com.terrydhariwal.model.Activity;
+import com.terrydhariwal.model.ActivitySearch;
 import com.terrydhariwal.model.User;
 
 import java.util.List;
@@ -93,9 +94,9 @@ public class ActivityRepositoryStub implements ActivityRepository {
     }
 
     @Override
-    public List<Activity> findByConstraints(List<String> descriptions, int durationFrom, int durationTo) {
+    public List<Activity> findByConstraints(ActivitySearch search) {
 
-        System.out.println(descriptions + ", " + durationFrom + ", " + durationTo);
+        System.out.println(search.getDescriptions()+ ", " + search.getDurationFrom()+ ", " + search.getDurationTo());
         // select * from activities where description in (?,?,?)
         // and duration > ? and duration < ?
 
