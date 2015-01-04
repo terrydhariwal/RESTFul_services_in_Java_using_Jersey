@@ -9,6 +9,8 @@ public class ActivitySearch {
 
     private List<String> descriptions;
 
+    private ActivitySearchType searchType;
+
     public List<String> getDescriptions() {
         return descriptions;
     }
@@ -31,5 +33,13 @@ public class ActivitySearch {
 
     public void setDurationTo(int durationTo) {
         this.durationTo = durationTo;
+    }
+
+    public ActivitySearchType getSearchType() {
+        return searchType;
+    }
+
+    public void setSearchType(ActivitySearchType searchType) {
+        this.searchType = searchType;
     }
 }

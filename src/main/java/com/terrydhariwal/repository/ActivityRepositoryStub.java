@@ -96,7 +96,11 @@ public class ActivityRepositoryStub implements ActivityRepository {
     @Override
     public List<Activity> findByConstraints(ActivitySearch search) {
 
-        System.out.println(search.getDescriptions()+ ", " + search.getDurationFrom()+ ", " + search.getDurationTo());
+        System.out.println("search.getDescriptions() = " + search.getDescriptions()
+                + ", search.getDurationFrom() = " + search.getDurationFrom()
+                + ", search.getDurationTo() = " + search.getDurationTo());
+
+        System.out.println("search.getSearchType() = " + search.getSearchType());
         // select * from activities where description in (?,?,?)
         // and duration > ? and duration < ?
 

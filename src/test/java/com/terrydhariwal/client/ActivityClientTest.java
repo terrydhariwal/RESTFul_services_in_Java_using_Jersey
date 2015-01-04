@@ -2,6 +2,7 @@ package com.terrydhariwal.client;
 
 import com.terrydhariwal.model.Activity;
 import com.terrydhariwal.model.ActivitySearch;
+import com.terrydhariwal.model.ActivitySearchType;
 import org.junit.Test;
 
 import java.util.ArrayList;
@@ -126,6 +127,7 @@ public class ActivityClientTest {
         search.setDescriptions(searchValues);
         search.setDurationFrom(30);
         search.setDurationTo(40);
+        search.setSearchType(ActivitySearchType.SEARCH_BY_DESCRIPTION);
 
         List<Activity> activities = client.search(search);
 

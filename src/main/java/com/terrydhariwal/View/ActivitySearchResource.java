@@ -47,8 +47,7 @@ public class ActivitySearchResource {
 
         System.out.println("descriptions = " + search.getDescriptions() + ", durationFrom = " + search.getDurationFrom() + " , durationTo = " + search.getDurationTo());
 
-        List<Activity> activities =
-                activityRepository.findByConstraints(search);
+        List<Activity> activities = activityRepository.findByConstraints(search);
 
         if(activities == null || activities.size() <= 0) {
             return Response.status(Status.NOT_FOUND).build();
