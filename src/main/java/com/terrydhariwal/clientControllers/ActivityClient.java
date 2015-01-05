@@ -1,4 +1,4 @@
-package com.terrydhariwal.client;
+package com.terrydhariwal.clientControllers;
 
 import com.terrydhariwal.model.Activity;
 

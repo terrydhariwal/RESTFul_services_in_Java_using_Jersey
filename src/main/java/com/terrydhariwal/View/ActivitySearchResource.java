@@ -1,4 +1,4 @@
-package com.terrydhariwal.View;
+package com.terrydhariwal.view;
 
 
 import com.terrydhariwal.model.Activity;
